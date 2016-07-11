@@ -9,10 +9,12 @@
 #import "ViewController.h"
 
 @interface ViewController ()
-
+@property (nonatomic, strong) CLLocationManager *locationManager;
 @end
 
 @implementation ViewController
+
+@synthesize locationManager;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
