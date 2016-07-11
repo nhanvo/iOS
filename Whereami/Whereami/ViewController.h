@@ -10,9 +10,6 @@
 #import <CoreLocation/CoreLocation.h>
 
 @interface ViewController : UIViewController
-{
-    CLLocationManager *locationManager;
-}
 
 @end
 
